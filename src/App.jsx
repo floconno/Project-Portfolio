@@ -8,6 +8,18 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/AboutMe" component={AboutMe} />
+        <Route path="/Projects" component={Projects} />
+        <Route path="/Contact" component={Contact} />
+      </Switch>
+    </Router>
   );
 };
+
+export default App;
+
+

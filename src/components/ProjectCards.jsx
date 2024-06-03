@@ -18,3 +18,4 @@ const ProjectCard = ({ title, text, imageSrc, link1, link2, button1Text, button2
 
 
 export default ProjectCard;
+
